@@ -1,0 +1,20 @@
+# What
+
+* [Astro](https://astro.build/)
+* [Tailwind](https://tailwindcss.com/)
+* [GitHub Pages](https://pages.github.com/)
+* [Vitest](https://vitest.dev/)
+
+# Why
+
+In all cases:
+* prior experience exists on the team
+* free hosting for static sites
+* first party support exists for integration of all of the above
+* we can change it later if we hate it
+
+# Alternatives Considered
+* [Tamagui](https://tamagui.dev/)
+* [Cypress](https://www.cypress.io/)
+* [NextJS](https://nextjs.org/)
+* [Netlify](https://www.netlify.com/)
