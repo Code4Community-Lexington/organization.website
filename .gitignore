@@ -128,3 +128,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# astro
+.astro/
+
+# macos
+.DS_Store
+
+# jetbrains
+.idea/
+.webstorm/
+.fleet/
