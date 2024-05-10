@@ -1,0 +1,39 @@
+---
+import "../styles/global.css";
+---
+
+<style>
+  .footer {
+    background: none;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  div.footer {
+    box-sizing: border-box;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.footer.padding {
+    flex-grow: 1;
+  }
+
+  a.footer {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 20px;
+    text-align: left;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+</style>
+
+<div class="footer">
+  <div class="footer.padding"></div>
+  <a class="footer" href="https://github.com/Code4Community-Lexington">github</a
+  >
+</div>
