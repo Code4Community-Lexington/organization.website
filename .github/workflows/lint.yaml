@@ -1,0 +1,24 @@
+name: Lint
+run-name: Lint
+on:
+  pull_request_target:
+    branches:
+      - main
+    types:
+      - opened
+      - synchronize
+      - reopened
+jobs:
+  Lint:
+    runs-on: ubuntu-latest
+    container:
+      image: node:21-alpine
+      env:
+        NODE_ENV: "development"
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      - name: Install Packages
+        run: (npm ci)
+      - name: Lint Project
+        run: (npm run lint)
