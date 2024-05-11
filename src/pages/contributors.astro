@@ -1,12 +1,6 @@
 ---
-import Navigation from "../components/Navigation.astro";
-import Header from "../components/Header.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageName = "Code4Community Contributors";
 ---
 
-<html lang="en">
-  <Header />
-  <Navigation />
-  <body>
-    <h1>Code4Community Contributors</h1>
-  </body>
-</html>
+<BaseLayout pageName={pageName} />

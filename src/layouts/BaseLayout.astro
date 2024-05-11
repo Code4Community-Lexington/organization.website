@@ -1,0 +1,45 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Navigation from "../components/Navigation.astro";
+const pageTitle = Astro.props.pageTitle || "Code4Community";
+const pageName = Astro.props.pageName || "Code4Community";
+---
+
+<style>
+  html {
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 120ch;
+    min-height: 100%;
+    padding: 1rem;
+    width: 100%;
+  }
+  .padding {
+    flex-grow: 1;
+  }
+</style>
+
+<html lang="en-us">
+  <Header pageTitle={pageTitle} />
+  <body>
+    <Navigation pageName={pageName} />
+    <slot />
+    <div class="padding"></div>
+    <Footer />
+  </body>
+</html>

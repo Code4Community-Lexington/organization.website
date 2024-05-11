@@ -1,28 +1,45 @@
 ---
 import "../styles/global.css";
+const pageName = Astro.props.pageName || "Code4Community";
 ---
 
 <style>
-  .navigation {
-    background: none;
+  .wrapper {
+    display: flex;
+    flex-direction: row;
   }
-  div.navigation {
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+
+  .padding {
+    flex-grow: 1;
+  }
+
+  .links {
     display: flex;
     justify-content: flex-end;
   }
-  a.navigation {
+  .link {
     font-size: 1.2rem;
     font-weight: bold;
-    margin-right: 1em;
     padding: 15px 20px;
-    text-align: center;
     text-decoration: none;
   }
 </style>
 
-<div class="navigation">
-  <a class="navigation" href="/">Home</a>
-  <a class="navigation" href="/about">About</a>
-  <a class="navigation" href="/contributors">Contributors</a>
-  <a class="navigation" href="/contact">Contact</a>
+<div class="wrapper">
+  <div class="title">
+    {pageName}
+  </div>
+  <div class="padding"></div>
+  <div class="links">
+    <a class="link" href="/">Home</a>
+    <a class="link" href="/about">About</a>
+    <a class="link" href="/contributors">Contributors</a>
+    <a class="link" href="/contact">Contact</a>
+  </div>
 </div>

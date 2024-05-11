@@ -1,17 +1,10 @@
 ---
-import Footer from "../components/Footer.astro";
-import Header from "../components/Header.astro";
-import Navigation from "../components/Navigation.astro";
 import "../styles/global.css";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<html lang="en">
-  <Header />
-  <body>
-    <Navigation />
-    <h1 style="font-size: 4rem; font-weight: bolder;">
-      Build the tech community through hands-on projects
-    </h1>
-    <Footer />
-  </body>
-</html>
+<BaseLayout>
+  <h1 style="font-size: 4rem; font-weight: bolder;">
+    Build the tech community through hands-on projects
+  </h1>
+</BaseLayout>

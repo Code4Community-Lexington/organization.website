@@ -17,29 +17,7 @@
 
 * {
   background-color: var(--color-background);
-  box-sizing: border-box;
   color: var(--color-sunset);
-}
-
-html {
-  font-family: sans-serif;
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  box-sizing: border-box;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 120ch;
-  min-height: 100%;
-  height: 100%;
-  padding: 1rem;
-  line-height: 1.5;
-  flex-grow: 1;
 }
 
 h1 {
