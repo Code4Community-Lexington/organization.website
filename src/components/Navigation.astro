@@ -1,0 +1,45 @@
+---
+import "../styles/global.css";
+const pageName = Astro.props.pageName || "Code4Community";
+---
+
+<style>
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+
+  .padding {
+    flex-grow: 1;
+  }
+
+  .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+</style>
+
+<div class="wrapper">
+  <div class="title">
+    {pageName}
+  </div>
+  <div class="padding"></div>
+  <div class="links">
+    <a class="link" href="/">Home</a>
+    <a class="link" href="/about">About</a>
+    <a class="link" href="/contributors">Contributors</a>
+    <a class="link" href="/contact">Contact</a>
+  </div>
+</div>
