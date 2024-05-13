@@ -3,7 +3,7 @@ run-name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - 'nyefan/#1' #use pr branch for testing
+      - 'main'
   workflow_dispatch:
 
 permissions:
