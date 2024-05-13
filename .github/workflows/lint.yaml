@@ -19,6 +19,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
       - name: Install Packages
+        working-directory: astro
         run: (npm ci)
       - name: Lint Project
+        working-directory: astro
         run: (npm run lint)
