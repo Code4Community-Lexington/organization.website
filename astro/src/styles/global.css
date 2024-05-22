@@ -6,12 +6,11 @@
   --color-sunset: #e3c699;
   --color-burnt_sienna: #e07a5f;
 
-  /*alternate color pallet*/
-
   --color-background: var(--color-gunmetal);
   --color-header: var(--color-sunset);
   --color-section-header: var(--color-dark-cyan);
   --color-section-border: var(--color-dark-cyan);
+  --color-section-background: var(--color-dark-cyan);
   --color-text: var(--color-sunset);
 }
 

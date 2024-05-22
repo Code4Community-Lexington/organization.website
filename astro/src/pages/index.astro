@@ -3,8 +3,59 @@ import "../styles/global.css";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
+<style>
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .filler {
+    display: flex;
+    height: 20%;
+    min-width: 20%;
+  }
+  .blurbs {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    min-height: 40%;
+    flex-grow: 1;
+  }
+  .blurb {
+    background-color: var(--color-section-background);
+    width: 30%;
+    min-width: 30%;
+    flex-grow: 1;
+  }
+  .blurb div {
+
+  }
+  .blurb h1 {
+
+  }
+  .blurb p {
+
+  }
+</style>
+
 <BaseLayout>
-  <h1 style="font-size: 4rem; font-weight: bolder;">
-    Build the tech community through hands-on projects
-  </h1>
+  <div class="wrapper">
+    <div class="filler">test</div>
+    <div class="blurbs">
+      <div class="blurb">
+        <h1 class="blurb">Build</h1>
+        <p class="blurb">No matter your skill level, build stuff with cool cats. We build projects using all kinds of tooling.</p>
+        <p class="blurb">IIf you want experience working with a team excited to collaborate, learn, and give back to the bluegrass, we want you!.</p>
+      </div>
+      <div class="blurb">
+        <h1 class="blurb">Build</h1>
+        <p class="blurb">No matter your skill level...</p>
+        <p class="blurb">If you want experience...</p>
+      </div>
+      <div class="blurb">
+        <h1 class="blurb">Build</h1>
+        <p class="blurb">No matter your skill level...</p>
+        <p class="blurb">If you want experience...</p>
+      </div>
+    </div>
+  </div>
 </BaseLayout>
