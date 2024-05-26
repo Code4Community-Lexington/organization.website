@@ -8,7 +8,10 @@ export default {
 				"bg-secondary-1": "#8fbb98",
 				"bg-secondary-2": "#37928d",
 				"bg-secondary-3": "#e3c699"
-			}
+			},
+			fontFamily: {
+				"source-sans-pro": ["Source Sans Pro", "sans"]
+			},
 		},
 	},
 	plugins: [],
