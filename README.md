@@ -1,5 +1,12 @@
 # organization.website
 
+WillCBurroughs-patch-1
+
+## Branch Structure 
+1. Main (Pulled in from feature)
+2. Feature (Pulled in from specific Task)
+3. Specific Task (Pushed up to feature branch) 
+
 ### Running Project
 
 1. Git clone project from github onto device
@@ -11,3 +18,4 @@
 #### Recommended Extensions
 
 1. Astro
+
