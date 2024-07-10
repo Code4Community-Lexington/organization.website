@@ -1,46 +1,15 @@
 ---
-import "../styles/global.css";
 const pageName = Astro.props.pageName || "Code4Community";
 const baseUrl = import.meta.env.BASE_URL;
 ---
 
-<style>
-  .wrapper {
-    display: flex;
-    flex-direction: row;
-  }
-  .title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 15px 20px;
-    text-decoration: none;
-  }
-
-  .padding {
-    flex-grow: 1;
-  }
-
-  .links {
-    display: flex;
-    justify-content: flex-end;
-  }
-  .link {
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 15px 20px;
-    text-decoration: none;
-  }
-</style>
-
-<div class="wrapper">
-  <div class="title">
-    {pageName}
+<nav class="flex justify-between items-center">
+  <span class="text-4xl font-extrabold">
+    C4C
+  </span>
+  <div class="flex gap-8">
+    <a class="transition duration-110 hover:scale-125" href={`${baseUrl}/about`}>About</a>
+    <a class="transition duration-110 hover:scale-125" href={`${baseUrl}/contributors`}>Contributors</a>
+    <a class="transition duration-110 hover:scale-125" href={`${baseUrl}/contact`}>Contact</a>
   </div>
-  <div class="padding"></div>
-  <div class="links">
-    <a class="link" href={`${baseUrl}`}>Home</a>
-    <a class="link" href={`${baseUrl}/about`}>About</a>
-    <a class="link" href={`${baseUrl}/contributors`}>Contributors</a>
-    <a class="link" href={`${baseUrl}/contact`}>Contact</a>
-  </div>
-</div>
+</nav>
