@@ -10,7 +10,7 @@ const pageName = Astro.props.pageName || "Code4Community";
   <Header pageTitle={pageTitle} />
   <body class="font-inter bg-bg-primary text-text p-4 min-h-screen">
     <Navigation pageName={pageName} />
-    <main>
+    <main class="flex flex-col gap-8">
       <slot />
     </main>
     <Footer />
