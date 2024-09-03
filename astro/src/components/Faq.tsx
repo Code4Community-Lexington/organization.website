@@ -26,7 +26,7 @@ export const Faq = ({ question, answer }: FaqProps) => {
         onClick={toggleAccordion}
         className="cursor-pointer p-8 bg-gray-200 flex justify-between items-center"
       >
-        <h3 className="text-2xl font-bold">{question}</h3>
+        <h3 className="lg:text-2xl text-xl font-bold">{question}</h3>
         <span
           className={`transition-all duration-300 ease-in-out ${isOpen ? "rotate-180" : ""}`}
         >
