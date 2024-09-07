@@ -3,13 +3,19 @@ const pageName = Astro.props.pageName || "Code4Community";
 const baseUrl = import.meta.env.BASE_URL;
 ---
 
-<nav class="flex justify-between items-center">
-  <span class="text-4xl font-extrabold">
-    C4C
-  </span>
+<nav class="flex justify-between items-center p-4">
+  <span class="text-4xl font-extrabold"> C4C </span>
   <div class="flex gap-8">
-    <a class="transition duration-110 hover:scale-125" href={`${baseUrl}/about`}>About</a>
-    <a class="transition duration-110 hover:scale-125" href={`${baseUrl}/contributors`}>Contributors</a>
-    <a class="transition duration-110 hover:scale-125" href={`${baseUrl}/contact`}>Contact</a>
+    <a class="transition duration-110 hover:scale-125" href={`${baseUrl}/about`}
+      >About</a
+    >
+    <a
+      class="transition duration-110 hover:scale-125"
+      href={`${baseUrl}/contributors`}>Contributors</a
+    >
+    <a
+      class="transition duration-110 hover:scale-125"
+      href={`${baseUrl}/contact`}>Contact</a
+    >
   </div>
 </nav>
