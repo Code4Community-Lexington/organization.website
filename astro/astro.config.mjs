@@ -8,5 +8,5 @@ export default defineConfig({
   output: "static",
   site: "https://www.code4community.dev",
   trailingSlash: "never",
-  integrations: [tailwind(), react()]
+  integrations: [tailwind(), react()],
 });
