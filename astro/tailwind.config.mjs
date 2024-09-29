@@ -16,6 +16,17 @@ export default {
         "source-sans-pro": ["Source Sans Pro", "sans"],
         inter: ["Inter Variable", "sans"],
       },
+      keyframes: {
+        slide: {
+          "0%": { transform: "translateX(-100%)" },
+          "100%": { transform: "translateX(0)" },
+        },
+      },
+      animation: {
+        "slide-1": "slide 1.25s ease-in-out",
+        "slide-2": "slide 1s ease-in-out",
+        "slide-3": "slide 0.75s ease-in-out",
+      },
     },
   },
   plugins: [],
