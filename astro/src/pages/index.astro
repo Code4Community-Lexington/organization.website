@@ -6,19 +6,19 @@ import FirstImage from "../images/firstMeeting.jpg";
 ---
 
 <BaseLayout>
-  <div class="flex flex-col lg:flex-row justify-between gap-8">
+  <section class="flex flex-col lg:flex-row justify-between gap-8 py-8">
     <div>
-      <h1 class="text-6xl font-bold py-8 pl-4">
+      <h1 class="text-6xl font-bold py-8 pl-8">
         Code 4 <br /> Community
       </h1>
       <ul class="flex flex-col gap-8 text-5xl font-extrabold">
-        <li class="animate-slide-1 bg-bg-secondary-1 w-fit pl-4 pr-[4rem] py-4 rounded-r-full">
+        <li class="animate-slide-1 bg-bg-secondary-1 w-fit pl-8 pr-[4rem] py-4 rounded-r-full">
           Developing devs
         </li>
-        <li class="animate-slide-2 bg-bg-secondary-2 w-fit pl-4 pr-[8rem] py-4 rounded-r-full">
+        <li class="animate-slide-2 bg-bg-secondary-2 w-fit pl-8 pr-[8rem] py-4 rounded-r-full">
           Building projects
         </li>
-        <li class="animate-slide-3 bg-bg-secondary-3 w-fit pl-4 pr-[10rem] py-4 rounded-r-full">
+        <li class="animate-slide-3 bg-bg-secondary-3 w-fit pl-8 pr-[10rem] py-4 rounded-r-full">
           Becoming Leaders
         </li>
       </ul>
@@ -26,24 +26,24 @@ import FirstImage from "../images/firstMeeting.jpg";
     <Image
       src={FirstImage}
       alt="An image of all the founding memebers!"
-      class="lg:w-1/2 rounded-2xl"
+      class="lg:w-1/2 rounded-2xl pr-8"
     />
-  </div>
-  <section class="flex flex-col gap-8 w-full justify-center lg:flex-row">
+  </section>
+  <section class="flex flex-col gap-8 w-full justify-center lg:flex-row px-8">
     <InfoBox
       color="bg-bg-secondary-1"
       title="Teach"
-      text="Got some experience, but looking to develop some leadership skills? We’re always looking for awesome people with kindness and passion to help our new members push the needle. If you want experience working with a team excited to collaborate, learn, and give back to the bluegrass, we want you!Hi, I'm a box"
+      text="Got some experience, but looking to develop some leadership skills? We’re always looking for awesome people with kindness and passion to help our new members push the needle. If you want experience working with a team excited to collaborate, learn, and give back to the bluegrass, we want you!"
     />
     <InfoBox
       color="bg-bg-secondary-2"
       title="Give"
-      text="Always wanted to build projects for the community you live in and make a real difference? This is the place for you! We are dedicated to making great devs who make great things. Together we can make amazing products to help the bluegrass! If you want experience working with a team excited to collaborate, learn, and give back to the bluegrass, we want you!I'm a second box"
+      text="Always wanted to build projects for the community you live in and make a real difference? This is the place for you! We are dedicated to making great devs who make great things. Together we can make amazing products to help the bluegrass! If you want experience working with a team excited to collaborate, learn, and give back to the bluegrass, we want you!"
     />
     <InfoBox
       color="bg-bg-secondary-3"
       title="Build"
-      text="No matter your skill level, build stuff with cool cats. We build projects using all kinds of tooling. If you want experience working with a team excited to collaborate, learn, and give back to the bluegrass, we want you! I'm a third box"
+      text="No matter your skill level, build stuff with cool cats. We build projects using all kinds of tooling. If you want experience working with a team excited to collaborate, learn, and give back to the bluegrass, we want you!"
     />
   </section>
 </BaseLayout>
