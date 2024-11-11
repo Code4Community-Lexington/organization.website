@@ -36,7 +36,7 @@ jobs:
         run: (npm run lint)
       - name: Build Project
         working-directory: astro
-        run: (npm run build -- --site https://code4community-lexington.github.io --base organization.website)
+        run: (npm run build -- --site https://code4community-lexington.github.io)
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
