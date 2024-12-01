@@ -9,13 +9,12 @@ const pageName = Astro.props.pageName || "Code4Community";
 
 <html lang="en-us">
   <Header pageTitle={pageTitle} />
-  <body class="font-inter bg-bg-primary text-text min-h-screen">
-    <Navigation pageName={pageName} />
-    <div class="bg-text h-[5px] rounded-full mx-4"></div>
-    <main class="flex flex-col">
-      <slot />
-    </main>
-    <div class="bg-text h-[5px] rounded-full mx-4 my-4"></div>
-    <Footer />
+  <body class="font-inter bg-bg-primary text-text min-h-screen pb-4">
+      <Navigation pageName={pageName} />
+      <main class="flex flex-col">
+        <slot />
+      </main>
+      <div class="bg-text h-[5px] rounded-full mx-4 my-4"></div>
+      <Footer />
   </body>
 </html>
