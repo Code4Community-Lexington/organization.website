@@ -1,6 +1,6 @@
 ---
 import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
+import Footer from "../components/shared/Footer.astro";
 import Navigation from "../components/shared/Navigation.astro";
 import "@fontsource-variable/inter";
 const pageTitle = Astro.props.pageTitle || "Code4Community";
@@ -9,7 +9,7 @@ const pageName = Astro.props.pageName || "Code4Community";
 
 <html lang="en-us">
   <Header pageTitle={pageTitle} />
-  <body class="font-inter bg-bg-primary text-text min-h-screen pb-4">
+  <body class="font-inter bg-primary text-text min-h-screen pb-4">
       <Navigation pageName={pageName} />
       <main class="flex flex-col">
         <slot />

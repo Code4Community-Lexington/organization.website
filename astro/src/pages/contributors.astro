@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { type Contributor, contributors } from "../../public/data/contributor";
+import contributors from "../../public/data/contributors.json";
 import tailwind from "../../tailwind.config.mjs";
 import XIcon from "../components/XIcon.astro";
 import GitHubIcon from "../components/GitHubIcon.astro";
@@ -12,42 +12,44 @@ const colors = tailwind.theme.extend.colors;
 ---
 
 <BaseLayout pageName={pageName}>
-  <div class="flex flex-col gap-4">
+  <div class="flex flex-col gap-4 pt-20 px-8">
     <h1 class="text-6xl font-bold py-4">Our Contributors</h1>
     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12">
       {
-        contributors.map((contributor: Contributor, index) => {
+        contributors.data.map((contributor, index) => {
           const row = Math.floor(index / 3);
           const colorIndex = (((index % 3) + row) % 3) + 1;
-          const secondaryColor = colors[`bg-secondary-${colorIndex}`];
+          const secondaryColor = colors[`secondary-${colorIndex}`];
           const rgb = hex2rgb(secondaryColor);
           const cardBackgroundColor = `rgb(${rgb.r}, ${rgb.g}, ${rgb.b}, 0.3)`;
 
           return (
             <div
               class={
-                "flex flex-col gap-2 justify-center items-center space-y-6 py-12 px-20 rounded-xl"
+                "flex flex-col justify-center items-center space-y-6 py-12 px-4 rounded-xl"
               }
               style={`background-color: ${cardBackgroundColor}; border: 2px solid ${secondaryColor};`}
             >
-              <img
-                src={contributor.avatar}
-                alt="{contributor.name} avatar"
-                class="w-24 h-24 rounded-full"
-              />
-              <h3
-                class="text-3xl font-extrabold"
-                style={`color: ${secondaryColor}; `}
-              >
-                {contributor.name}
-              </h3>
-              <p class="text-md ">{contributor.bio}</p>
+              <div class="flex flex-col items-center">
+                <img
+                  src={contributor.avatar}
+                  alt="{contributor.name} avatar"
+                  class="w-1/2 rounded-full bg-primary"
+                />
+                <h3
+                  class="text-3xl font-extrabold p-2 text-center h-12"
+                  style={`color: ${secondaryColor}; `}
+                >
+                  {contributor.name}
+                </h3>
+              </div>
+              <p class="text-md">{contributor.bio}</p>
               <div
                 class="flex gap-4 py-4 px-10 rounded-full "
                 style={`background-color: ${secondaryColor}`}
               >
                 <a href={contributor.xUrl}>
-                  <XIcon />
+                    <XIcon />
                 </a>
                 <a href={contributor.githubUrl}>
                   <GitHubIcon />
