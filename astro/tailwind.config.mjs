@@ -5,10 +5,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        "bg-primary": "#e5e1da",
-        "bg-secondary-1": "#37928d",
-        "bg-secondary-2": "#e07a5f",
-        "bg-secondary-3": "#8fbb98",
+        "primary": "#e5e1da",
+        "secondary-1": "#37928d",
+        "secondary-2": "#e07a5f",
+        "secondary-3": "#8fbb98",
         text: "#272d2a",
       },
       //TODO: Solidify font choice
