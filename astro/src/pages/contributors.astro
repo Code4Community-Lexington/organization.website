@@ -1,14 +1,18 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import contributors from "../../public/data/contributors.json";
-import tailwind from "../../tailwind.config.mjs";
+import * as contributors from "../../public/data/contributors.json";
 import XIcon from "../components/XIcon.astro";
 import GitHubIcon from "../components/GitHubIcon.astro";
 import LinkedInIcon from "../components/LinkedInIcon.astro";
 import { hex2rgb } from "../util/styleUtils";
-
 const pageName = "Code4Community Contributors";
-const colors = tailwind.theme.extend.colors;
+const colors = {
+  primary: "#e5e1da",
+  "secondary-1": "#37928d",
+  "secondary-2": "#e07a5f",
+  "secondary-3": "#8fbb98",
+  text: "#272d2a",
+}
 ---
 
 <BaseLayout pageName={pageName}>
@@ -33,7 +37,7 @@ const colors = tailwind.theme.extend.colors;
               <div class="flex flex-col items-center">
                 <img
                   src={contributor.avatar}
-                  alt="{contributor.name} avatar"
+                  alt={`${contributor.name} avatar`}
                   class="w-1/2 rounded-full bg-primary"
                 />
                 <h3

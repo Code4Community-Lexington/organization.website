@@ -1,9 +1,14 @@
 ---
+import Prose from '../components/shared/Prose.astro'
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Markdown from '../markdown/about.md'
 const pageName = "About Code4Community";
 ---
 
 <BaseLayout pageName={pageName}>
-    <Markdown />
+   <div class="pt-24 px-8"> 
+        <Prose> 
+            <Markdown />
+        </Prose>
+    </div> 
 </BaseLayout pageName={pageName}>
