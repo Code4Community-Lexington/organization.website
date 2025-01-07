@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import InfoBox from "../components/InfoBox.astro";
 import FirstImage from "../images/firstMeeting.jpg";
@@ -36,10 +35,10 @@ import FirstImage from "../images/firstMeeting.jpg";
     <div
       class="bg-black -z-10 md:absolute right-0 md:w-7/12 rounded-l-2xl md:mt-12 animate-slide-r-l-1 overflow-x-hidden"
     >
-      <Image
+      <img
         class="opacity-70"
-        src={FirstImage}
-        alt="An image of all the founding members!"
+        src={FirstImage.src}
+        alt="All the founding members!"
       />
     </div>
   </section>
