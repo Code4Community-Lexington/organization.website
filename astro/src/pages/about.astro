@@ -3,4 +3,55 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const pageName = "About Code4Community";
 ---
 
-<BaseLayout pageName={pageName} />
+<BaseLayout pageName={pageName}>
+    <div class="pt-24 px-8 lg:max-w-screen-lg flex flex-col gap-8">
+        <div class="">
+            <h1 class="text-3xl font-black">About Us</h1>
+            <span class="italic">A group of devs contributing to our communities</span>
+        </div>
+                    <div class="bg-text h-[5px] rounded-full my-4 w-1/2 mx-auto"></div>
+        <section>
+            <div>
+                <h2 class="text-3xl font-semibold">Our Mission</h2>
+                <p>Code4Community exists to:</p>
+            </div>
+            <ul class="flex flex-col gap-4">
+                <li>
+                    <h3 class="font-bold">Strengthen Lexington</h3>
+                    <p>By partnering with nonprofits, we tackle projects that directly benefit our city and its people.</p>
+                </li>
+                <li>
+                    <h3 class="font-bold">Grow the Tech Community</h3>
+                    <p>We’re creating a welcoming, safe space where developers of all experience levels—from absolute beginners to seasoned pros—can collaborate, learn, and grow together.</p>
+                </li>
+                <li>
+                    <h3 class="font-bold">Build Skills and Leaders</h3>
+                    <p>Beyond coding, we focus on fostering leadership and teamwork. This is a place where you can grow your technical expertise while also developing the confidence to lead and inspire.</p>
+                </li>
+            </ul>
+        </section>
+            <div class="bg-text h-[5px] rounded-full my-4 w-1/2 mx-auto"></div>
+        <section>
+            <div>
+                <h2 class="text-3xl font-semibold">Who We Are</h2>
+                <p>Our community is as diverse as the projects we work on. We have:</p>
+            </div>
+            <ul class="flex flex-col gap-4">
+                <li>
+                    <h3 class="font-bold">A wealth of technical expertise:</h3>
+                    <p>From Astro to Go, JavaScript to Laravel, and countless languages and frameworks in between, our members bring a wide range of skills to the table.</p>
+                </li>
+                <li>
+                    <h3 class="font-bold">A mix of experience levels:</h3>
+                    <p>Whether you’re looking for your first developer role or you’ve been coding for decades, you’ll find a home here.</p>
+                </li>
+            </ul>
+        </section>
+            <div class="bg-text h-[5px] rounded-full my-4 w-1/2 mx-auto"></div>
+        <section>
+            <h2 class="text-3xl font-semibold">Why Join Us?</h2>
+            <p>At Code4Community, you’ll find opportunities to work on real-world projects, gain mentorship, and contribute to initiatives that make a difference. It’s not just about coding; it’s about building something bigger together.</p>
+            <p>So, are you ready to make an impact? <a href="#">Contact us</a> to join the team. Let’s code for good, together!</p>
+        </section>
+    </div>
+</BaseLayout>
