@@ -1,6 +1,7 @@
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import { defineConfig } from "astro/config";
+import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,5 +9,5 @@ export default defineConfig({
   site: "https://www.code4community.dev",
   trailingSlash: "never",
   base: process.env.NODE_ENV === "production" ? "/" : "",
-  integrations: [tailwind(), react()],
+  integrations: [tailwind(), react(), icon()],
 });
