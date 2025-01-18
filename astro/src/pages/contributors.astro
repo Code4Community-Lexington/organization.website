@@ -2,10 +2,8 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import contributors from "../../public/data/contributors.json";
 import tailwind from "../../tailwind.config.mjs";
-import XIcon from "../components/XIcon.astro";
-import GitHubIcon from "../components/GitHubIcon.astro";
-import LinkedInIcon from "../components/LinkedInIcon.astro";
 import { hex2rgb } from "../util/styleUtils";
+import SocialLinks from "../components/SocialLinks.astro";
 
 const pageName = "Code4Community Contributors";
 const colors = tailwind.theme.extend.colors;
@@ -34,7 +32,7 @@ const colors = tailwind.theme.extend.colors;
                 <img
                   src={contributor.avatar}
                   alt="{contributor.name} avatar"
-                  class="w-1/2 rounded-full bg-primary"
+                  class="rounded-full bg-primary w-40 h-40"
                 />
                 <h3
                   class="text-3xl font-extrabold p-2 text-center h-12"
@@ -44,20 +42,10 @@ const colors = tailwind.theme.extend.colors;
                 </h3>
               </div>
               <p class="text-md">{contributor.bio}</p>
-              <div
-                class="flex gap-4 py-4 px-10 rounded-full "
-                style={`background-color: ${secondaryColor}`}
-              >
-                <a href={contributor.xUrl}>
-                  <XIcon />
-                </a>
-                <a href={contributor.githubUrl}>
-                  <GitHubIcon />
-                </a>
-                <a href={contributor.linkedInUrl}>
-                  <LinkedInIcon />
-                </a>
-              </div>
+              <SocialLinks
+                secondaryColor={secondaryColor}
+                socials={contributor.socials}
+              />
             </div>
           );
         })
