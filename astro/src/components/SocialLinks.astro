@@ -1,0 +1,19 @@
+---
+import { Icon } from "astro-icon/components";
+const { secondaryColor, socials } = Astro.props;
+---
+
+<div
+  class="flex gap-4 py-4 px-10 rounded-full"
+  style={`background-color: ${secondaryColor}`}
+>
+  {
+    // This will render the social icons. It's important that the icon you intend to use follows the naming convention of the astro-icon package. The icons are intend
+    // to be stored in the src/icons folder by convention. Make sure this matches the icon name in the contributors.json file.
+    socials.map((social: { name: string; url: string }) => (
+      <a href={social.url} target="_blank" rel="noopener noreferrer">
+        <Icon name={social.name} size="24" />
+      </a>
+    ))
+  }
+</div>
