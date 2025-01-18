@@ -4,49 +4,61 @@
       "name": "Neal P",
       "avatar": "https://avatars.githubusercontent.com/u/91105711?s=400&u=44f70c1f5dfd43c5ee49ce662d217fc22ed9e50f&v=4",
       "bio": "Full-stack developer with 5+ years of experience in JavaScript, Python, and PHP. Passionate about building scalable web apps and automating workflows. Active in open source, enjoys mentoring new devs. Excels in fast-paced environments.",
-      "githubUrl": "https://www.github.com/",
-      "linkedInUrl": "https://www.linkedin.com/",
-      "xUrl": "https://www.x.com/"
+      "socials": [
+        { "name": "github", "url": "https://www.github.com/" },
+        { "name": "linkedin", "url": "https://www.linkedin.com/" },
+        { "name": "x", "url": "https://www.x.com/" }
+      ]
     },
     {
-      "name": "Neal P",
+      "name": "Alt Social Test",
       "avatar": "https://placecats.com/300/300",
       "bio": "Full-stack developer with 5+ years of experience in JavaScript, Python, and PHP. Passionate about building scalable web apps and automating workflows. Active in open source, enjoys mentoring new devs. Excels in fast-paced environments.",
-      "githubUrl": "https://www.github.com/",
-      "linkedInUrl": "https://www.linkedin.com/",
-      "xUrl": "https://www.x.com/"
+      "socials": [
+        { "name": "github", "url": "https://www.github.com/" },
+        { "name": "bluesky", "url": "https://www.linkedin.com/" },
+        { "name": "instagram", "url": "https://www.x.com/" }
+      ]
     },
     {
       "name": "William 'Billy the Kid' R",
       "avatar": "https://avatars.githubusercontent.com/u/25677840?v=4",
       "bio": "Full-stack developer with 5+ years of experience in JavaScript, Python, and PHP. Passionate about building scalable web apps and automating workflows. Active in open source, enjoys mentoring new devs. Excels in fast-paced environments.",
-      "githubUrl": "https://www.github.com/",
-      "linkedInUrl": "https://www.linkedin.com/",
-      "xUrl": "https://www.x.com/"
+      "socials": [
+        { "name": "github", "url": "https://www.github.com/" },
+        { "name": "linkedin", "url": "https://www.linkedin.com/" },
+        { "name": "x", "url": "https://www.x.com/" }
+      ]
     },
     {
       "name": "Neal P",
       "avatar": "https://placecats.com/300/300",
       "bio": "Full-stack developer with 5+ years of experience in JavaScript, Python, and PHP. Passionate about building scalable web apps and automating workflows. Active in open source, enjoys mentoring new devs. Excels in fast-paced environments.",
-      "githubUrl": "https://www.github.com/",
-      "linkedInUrl": "https://www.linkedin.com/",
-      "xUrl": "https://www.x.com/"
+      "socials": [
+        { "name": "github", "url": "https://www.github.com/" },
+        { "name": "linkedin", "url": "https://www.linkedin.com/" },
+        { "name": "x", "url": "https://www.x.com/" }
+      ]
     },
     {
       "name": "Neal P",
       "avatar": "https://placecats.com/300/300",
       "bio": "Full-stack developer with 5+ years of experience in JavaScript, Python, and PHP. Passionate about building scalable web apps and automating workflows. Active in open source, enjoys mentoring new devs. Excels in fast-paced environments.",
-      "githubUrl": "https://www.github.com/",
-      "linkedInUrl": "https://www.linkedin.com/",
-      "xUrl": "https://www.x.com/"
+      "socials": [
+        { "name": "github", "url": "https://www.github.com/" },
+        { "name": "linkedin", "url": "https://www.linkedin.com/" },
+        { "name": "x", "url": "https://www.x.com/" }
+      ]
     },
     {
       "name": "Neal P",
       "avatar": "https://placecats.com/300/300",
       "bio": "Full-stack developer with 5+ years of experience in JavaScript, Python, and PHP. Passionate about building scalable web apps and automating workflows. Active in open source, enjoys mentoring new devs. Excels in fast-paced environments.",
-      "githubUrl": "https://www.github.com/",
-      "linkedInUrl": "https://www.linkedin.com/",
-      "xUrl": "https://www.x.com/"
+      "socials": [
+        { "name": "github", "url": "https://www.github.com/" },
+        { "name": "linkedin", "url": "https://www.linkedin.com/" },
+        { "name": "x", "url": "https://www.x.com/" }
+      ]
     }
   ]
 }
