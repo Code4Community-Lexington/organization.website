@@ -24,7 +24,7 @@ const colors = tailwind.theme.extend.colors;
           return (
             <div
               class={
-                "flex flex-col justify-center items-center space-y-6 py-12 px-4 rounded-xl"
+                "flex flex-col justify-between items-center space-y-6 py-8 px-8 rounded-xl"
               }
               style={`background-color: ${cardBackgroundColor}; border: 2px solid ${secondaryColor};`}
             >
@@ -41,7 +41,12 @@ const colors = tailwind.theme.extend.colors;
                   {contributor.name}
                 </h3>
               </div>
-              <p class="text-md">{contributor.bio}</p>
+              <p
+                class="text-md rounded-xl p-4 h-72 scroll-smooth overflow-scroll"
+                style={`background-color: ${secondaryColor}`}
+              >
+                {contributor.bio}
+              </p>
               <SocialLinks
                 secondaryColor={secondaryColor}
                 socials={contributor.socials}
