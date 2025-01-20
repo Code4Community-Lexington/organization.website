@@ -1,63 +1,76 @@
 {
   "data": [
     {
-      "name": "Neal P",
-      "avatar": "https://avatars.githubusercontent.com/u/91105711?s=400&u=44f70c1f5dfd43c5ee49ce662d217fc22ed9e50f&v=4",
-      "bio": "Full-stack developer with 5+ years of experience in JavaScript, Python, and PHP. Passionate about building scalable web apps and automating workflows. Active in open source, enjoys mentoring new devs. Excels in fast-paced environments.",
+      "name": "William Rice",
+      "image_url": "https://avatars.githubusercontent.com/u/25677840?v=4",
+      "bio": "Former police officer turned software developer. I am passionate about learning new technologies and helping others learn as well. Check out my website at https://williamarice.com",
+      "github_url": "https://github.com/williamrice",
       "socials": [
-        { "name": "github", "url": "https://www.github.com/" },
-        { "name": "linkedin", "url": "https://www.linkedin.com/" },
-        { "name": "x", "url": "https://www.x.com/" }
+        { "name": "x", "url": "https://x.com/warice_dev" },
+        { "name": "facebook", "url": "https://www.facebook.com/billy.rice2" },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/realwilliamrice/"
+        }
       ]
     },
     {
-      "name": "Alt Social Test",
-      "avatar": "https://placecats.com/300/300",
-      "bio": "Full-stack developer with 5+ years of experience in JavaScript, Python, and PHP. Passionate about building scalable web apps and automating workflows. Active in open source, enjoys mentoring new devs. Excels in fast-paced environments.",
+      "name": "William Burroughs",
+      "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQHxrmwfi9ughg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1713031893979?e=1742428800&v=beta&t=qBjQls6vsQRQlflbjpNaazfFILSufa7LIUXI_pEk8W4",
+      "bio": "William Burroughs is the founder of C4C, a club that helps programmers build their skills and resumes while giving back to their communities. William is a software architect at SkyFi. He is skilled in Ruby, JavaScript, and Swift. He currently has 5 apps listed on the iPhone app store, the most recent being The Space Project, a retro space-themed arcade shooter. Outside of work, he enjoys learning Italian and playing racquetball.",
+      "github_url": "https://github.com/WillCBurroughs",
       "socials": [
-        { "name": "github", "url": "https://www.github.com/" },
-        { "name": "bluesky", "url": "https://www.linkedin.com/" },
-        { "name": "instagram", "url": "https://www.x.com/" }
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/w.burroughs/?next=%2F"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/william-carson-burroughs/"
+        }
       ]
     },
     {
-      "name": "William 'Billy the Kid' R",
-      "avatar": "https://avatars.githubusercontent.com/u/25677840?v=4",
-      "bio": "Full-stack developer with 5+ years of experience in JavaScript, Python, and PHP. Passionate about building scalable web apps and automating workflows. Active in open source, enjoys mentoring new devs. Excels in fast-paced environments.",
+      "name": "Ofir Klein",
+      "image_url": "https://geography.as.uky.edu/sites/default/files/styles/large/public/pictures/Klein_Ofir%20copy.png?itok=B6ld33XX",
+      "bio": "My name is Ofir Klein, an autodidactic programmer with a diverse background spanning data engineering, software development, data analytics, and GIS. I’ve worked across fields like data migration, data integration, artificial intelligence, natural language processing, and UI/UX design, and I specialize in architecting scalable, composable, and maintainable systems. With experience in both technical and creative domains, I’m passionate about designing software that lasts. I believe the best solutions are those that are both simple, but not simplistic, and are able to grow and evolve naturally over time.",
+      "github_url": "https://github.com/Oklein1",
       "socials": [
-        { "name": "github", "url": "https://www.github.com/" },
-        { "name": "linkedin", "url": "https://www.linkedin.com/" },
-        { "name": "x", "url": "https://www.x.com/" }
+        { "name": "x", "url": "https://x.com/ofir_klein" },
+        { "name": "linkedin", "url": "https://www.linkedin.com/in/ofirklein00" }
       ]
     },
     {
-      "name": "Neal P",
-      "avatar": "https://placecats.com/300/300",
-      "bio": "Full-stack developer with 5+ years of experience in JavaScript, Python, and PHP. Passionate about building scalable web apps and automating workflows. Active in open source, enjoys mentoring new devs. Excels in fast-paced environments.",
+      "name": "Neal Powers",
+      "image_url": "https://i.ibb.co/jrpBq4C/Neal.jpg",
+      "bio": "I'm a software developer from Lexington, working primarily in Laravel. I've been a teacher and play the trumpet! I'm super interested in Golang and all things web dev!",
+      "github_url": "https://github.com/Nealium104",
       "socials": [
-        { "name": "github", "url": "https://www.github.com/" },
-        { "name": "linkedin", "url": "https://www.linkedin.com/" },
-        { "name": "x", "url": "https://www.x.com/" }
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/neal-powers"
+        },
+        { "name": "facebook", "url": "https://facebook.com/neal.grindstaff" },
+        {
+          "name": "bluesky",
+          "url": "https://bsky.app/profile/nealium.bsky.social"
+        }
       ]
     },
     {
-      "name": "Neal P",
-      "avatar": "https://placecats.com/300/300",
-      "bio": "Full-stack developer with 5+ years of experience in JavaScript, Python, and PHP. Passionate about building scalable web apps and automating workflows. Active in open source, enjoys mentoring new devs. Excels in fast-paced environments.",
+      "name": "David York",
+      "image_url": "https://i.ibb.co/sbm6VgK/David-York-Headshot.jpg",
+      "bio": "I work to help people succeed! My professional experience lies in managing people, creating strong relationships, and goal achievement. I'm always interested in new ideas and creative problem solving. Reach out to me on LinkedIn or Discord!",
+      "github_url": "https://github.com/davidthecodingguy",
       "socials": [
-        { "name": "github", "url": "https://www.github.com/" },
-        { "name": "linkedin", "url": "https://www.linkedin.com/" },
-        { "name": "x", "url": "https://www.x.com/" }
-      ]
-    },
-    {
-      "name": "Neal P",
-      "avatar": "https://placecats.com/300/300",
-      "bio": "Full-stack developer with 5+ years of experience in JavaScript, Python, and PHP. Passionate about building scalable web apps and automating workflows. Active in open source, enjoys mentoring new devs. Excels in fast-paced environments.",
-      "socials": [
-        { "name": "github", "url": "https://www.github.com/" },
-        { "name": "linkedin", "url": "https://www.linkedin.com/" },
-        { "name": "x", "url": "https://www.x.com/" }
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/david-m-york/"
+        },
+        {
+          "name": "discord",
+          "url": "https://discordapp.com/users/thattechguydavid"
+        }
       ]
     }
   ]
