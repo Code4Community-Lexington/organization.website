@@ -3,11 +3,11 @@
     {
       "name": "William Rice",
       "image_url": "https://avatars.githubusercontent.com/u/25677840?v=4",
-      "bio": "Former police officer turned software developer. I am passionate about learning new technologies and helping others learn as well. Check out my website at https://williamarice.com",
+      "bio": "I currently work as a Software Developer after transitioning to a tech career from a prior 12 year law enforcement career. I currently work at a website development agency where I work in Wordpress and React. I do anything from writing custom Wordpress plugins, server administration, to full stack web based applications for small businesses. I’m also a local leader in my community as an elected City Council member. I have been programming for over 12 years as a self taught developer before the tech career transition in 2024. I earned an AAS in CIT - Programming at BCTC in 2022 and I’m currently working on a bachelors degree. I believe in sharing knowledge and giving back to others. I hope to inspire others and be an example that it is never too late to get into a tech career. I’m excited to contribute to Code 4 Community and what the organization can do in the future.",
       "github_url": "https://github.com/williamrice",
       "socials": [
         { "name": "x", "url": "https://x.com/warice_dev" },
-        { "name": "facebook", "url": "https://www.facebook.com/billy.rice2" },
+        { "name": "website", "url": "https://williamarice.com" },
         {
           "name": "linkedin",
           "url": "https://www.linkedin.com/in/realwilliamrice/"
