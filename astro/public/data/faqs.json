@@ -2,19 +2,19 @@
   "data": [
     {
       "question": "Are our projects really free?",
-      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      "answer": "Yes all of our projects are free and we will provide eager programmers who are happy to give back! It is important to note, while our projects are free, we will not purchase any materials for you or your organization"
     },
     {
       "question": "What type of projects do we accept?",
-      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      "answer": "We accept community based projects and nonprofits that we find meaningful such as web and app development as well as data collection to help improve communities. We try to help smaller nonprofits with limited budgets so as not to take work from other developers."
     },
     {
-      "question": "What type of projects do we accept?",
-      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      "question": "Can only programmers join?",
+      "answer": "Not at all! We have space for many different specialties such as UI/UX specialists, project managers, and marketing specialists. Of course programmers of all experience levels are encouraged to join as well"
     },
     {
-      "question": "What type of projects do we accept?",
-      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      "question": "Why join C4C?",
+      "answer": "The purpose of C4C is to help teach developers through meaningful community oriented projects. We hope to build a community that can build and learn from each other while giving back and making a meaningful impact. If that appeals to you, we would love to have you"
     }
   ]
 }
